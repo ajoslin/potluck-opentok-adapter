@@ -1,12 +1,12 @@
 {
-  "name": "potluck-opentok-adapter",
+  "name": "potluck-tokbox-adapter",
   "main": "index.js",
   "version": "0.0.0",
   "description": "Opentok video adapter for potluck",
   "license": "MIT",
   "repository": "eaze/potluck-opentok-adapter",
   "scripts": {
-    "test": "standard && tape test.js"
+    "test": "standard && zuul --local 8080 -- test.js"
   },
   "author": {
     "name": "Andrew Joslin",
@@ -16,19 +16,23 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-    "test": "standard && tape test.js"
-  },
   "keywords": [
-    "opentok video potluck"
+    "opentok tokbox potluck video webrtc"
   ],
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
   "browserify-shim": {
-    "opentok": "global:OT"
+    "tokbox": "global:OT"
   },
   "dependencies": {},
   "devDependencies": {
-    "tape": "^4.0.0",
-    "standard": "^4.0.0"
+    "express": "^4.13.1",
+    "opentok": "^2.3.0",
+    "standard": "^4.0.0",
+    "tape": "^4.0.0"
   },
   "files": [
     "index.js"

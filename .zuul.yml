@@ -1,0 +1,12 @@
+name: opentok_test
+ui: tape
+server: ./test-server.js
+scripts:
+  - "https://static.opentok.com/v2/js/opentok.min.js"
+browsers:
+  - name: chrome
+    version: 27..latest
+  - name: firefox
+    version: latest
+  - name: safari
+    version: latest
