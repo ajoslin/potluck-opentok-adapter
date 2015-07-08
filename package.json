@@ -1,0 +1,36 @@
+{
+  "name": "potluck-opentok-adapter",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Opentok video adapter for potluck",
+  "license": "MIT",
+  "repository": "eaze/potluck-opentok-adapter",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "eazeup.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "opentok video potluck"
+  ],
+  "browserify-shim": {
+    "opentok": "global:OT"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
