@@ -8,6 +8,7 @@ var TokboxAdapter = require('./')
 var credentials
 test('setup', function (t) {
   t.plan(4)
+  t.timeoutAfter(1000)
   got('/', function (_, data, res) {
     credentials = JSON.parse(data)
     t.ok(credentials)
