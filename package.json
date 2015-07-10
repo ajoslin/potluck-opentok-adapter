@@ -5,6 +5,7 @@
   "description": "Opentok video adapter for potluck",
   "license": "MIT",
   "repository": "eaze/potluck-opentok-adapter",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "standard && zuul --local 8080 -- test.js"
   },
@@ -37,7 +38,4 @@
     "standard": "^4.0.0",
     "tape": "^4.0.0"
   },
-  "files": [
-    "index.js"
-  ]
 }
