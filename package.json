@@ -27,7 +27,10 @@
   "browserify-shim": {
     "tokbox": "global:OT"
   },
-  "dependencies": {},
+  "dependencies": {
+    "promise": "^7.0.3",
+    "winresize-event": "^0.2.1"
+  },
   "devDependencies": {
     "express": "^4.13.1",
     "opentok": "^2.3.0",
