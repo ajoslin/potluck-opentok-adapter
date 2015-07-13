@@ -1,4 +1,4 @@
-# potluck-tokbox-adapter
+# potluck-opentok-adapter
 
 - Used in [potluck](https://github.com/eaze/potluck)
 
