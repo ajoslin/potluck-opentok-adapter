@@ -20,14 +20,6 @@
   "keywords": [
     "opentok tokbox potluck video webrtc"
   ],
-  "browserify": {
-    "transform": [
-      "browserify-shim"
-    ]
-  },
-  "browserify-shim": {
-    "opentok": "global:OT"
-  },
   "dependencies": {
     "winresize-event": "^0.2.1"
   },
