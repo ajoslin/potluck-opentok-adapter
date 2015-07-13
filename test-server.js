@@ -32,4 +32,6 @@ app.get('/', function (req, res) {
 
 })
 
-app.listen(process.env.ZUUL_PORT)
+var port = process.env.ZUUL_PORT || 3333
+app.listen(port)
+console.log('Listening on port', port)
