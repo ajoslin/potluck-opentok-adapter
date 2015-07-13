@@ -1,6 +1,6 @@
 # potluck-opentok-adapter
 
-- Used in [potluck](https://github.com/eaze/potluck)
+- Coordinates a [potluck](https://github.com/eaze/potluck) video session.
 
 More documentation coming soon.
 
