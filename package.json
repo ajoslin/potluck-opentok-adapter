@@ -1,7 +1,7 @@
 {
   "name": "potluck-opentok-adapter",
   "main": "./lib/index.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Opentok video adapter for potluck",
   "license": "MIT",
   "repository": "eaze/potluck-opentok-adapter",
