@@ -1,7 +1,7 @@
 {
-  "name": "potluck-tokbox-adapter",
+  "name": "potluck-opentok-adapter",
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Opentok video adapter for potluck",
   "license": "MIT",
   "repository": "eaze/potluck-opentok-adapter",
@@ -26,10 +26,9 @@
     ]
   },
   "browserify-shim": {
-    "tokbox": "global:OT"
+    "opentok": "global:OT"
   },
   "dependencies": {
-    "promise": "^7.0.3",
     "winresize-event": "^0.2.1"
   },
   "devDependencies": {
